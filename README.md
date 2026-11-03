@@ -1,15 +1,15 @@
-# صفَحات
+# Safahat
 
-أدوات PDF تعمل محليًا على Windows، بالعربية والإنجليزية.
+Offline PDF tools for Windows, available in Arabic and English.
 
-## التنزيل والتثبيت
+## Download and install
 
-نزّل **Safahat-3.3.2-Setup.exe** من [أحدث إصدار](https://github.com/SaadAlzare/safahat-releases/releases/latest)، وافق على طلب صلاحية Windows واتبع معالج التثبيت.
+Open the [latest release](https://github.com/SaadAlzare/safahat-releases/releases/latest) and download the file ending in **-Setup.exe**. Run it, allow the Windows administrator prompt, and follow the wizard.
 
-المسار الافتراضي `C:\Program Files (x86)\Safahat`. إنشاء اختصار سطح المكتب مفعّل افتراضيًا ويمكن تعطيله. تتضمن الحزمة .NET Framework والمحركات اللازمة دون تنزيلات إضافية أثناء التثبيت. قد تلزم إعادة تشغيل Windows عند تثبيت .NET.
+The default installation folder is `C:\Program Files (x86)\Safahat`. A desktop shortcut is enabled by default and can be disabled. Setup includes .NET Framework and the processing engines for offline installation. Installing .NET may require a Windows restart.
 
-عند التحديث من داخل البرنامج، يُطلب إذن المسؤول للكتابة في المجلدات المحمية ثم يُعاد تشغيل البرنامج بصلاحيات المستخدم العادية. إذا رفض المستخدم الإذن، يبقى البرنامج مفتوحًا ويمكن إعادة المحاولة.
+In-app updates request administrator permission for protected installation folders and restart the app with the original user's normal privileges. Canceling the prompt keeps the app open so the update can be retried.
 
-يدعم Windows 10/11 بنواتي 32 و64 بت وWindows 11 على ARM64. تتوفر حزمة ZIP محمولة أيضًا؛ فكّها كاملة وشغّل صفحات-3.3.2.exe.
+Supports Windows 10/11 on x86/x64 and Windows 11 on ARM64. For portable use, download the full portable archive identified in the release notes and extract it in full. Keep the executable with its engines and libraries.
 
-هذا المستودع لملفات التوزيع فقط؛ الكود المصدري خاص. تطوير أ. سعد الزارع. © 2026 جميع الحقوق محفوظة. تراخيص المكونات مرفقة داخل الحزمة.
+This repository contains distribution files only. Source code is private. Developed by Saad Alzare. Copyright 2026. All rights reserved. Third-party licenses are included with the application.
